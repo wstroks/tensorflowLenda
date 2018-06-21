@@ -10,8 +10,11 @@ Explicação mais rapida do oeste ...... Acho melhor vc ler essa parte <3.
 
 Links para Estudo:
 [<3](https://medium.com/@dehhmesquita/classificando-textos-com-redes-neurais-e-tensorflow-5063784a1b31)
+
 [<<3](http://www.cienciaedados.com/big-data-deep-learning-google-tensorflow/)
+
 [Esse bixo é mito](https://www.youtube.com/user/sentdex)
+
 [Esse aque é outro bruxo](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
 
 ## Instalação
@@ -44,7 +47,7 @@ Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão
 docker run -it tensorflow/tensorflow:1.0.0 bash
 ```
 
-3- cria a pasta mkdir tf_files, copie o cole os arquivos que estão nesse repositorio
+3- cria a pasta uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc" .... 
 
 ou o nome que deseja, mas lembre de alterar o nome e tambem caso deseje mudar o caminho em está a pasta. Lembrando que por padrão o docker abre na home.
 
@@ -88,7 +91,7 @@ verifique se bateu o resultado e teste as outras fts que estão contidas fora do
 ## UAU Tensorflow é massa
 Realmente ajuda bastante em um classificador de imagens, mas não aconselharia para outros tipos de analise exemplo uma rede de textos. Qual motivo? o tensorflow é bastante complexo e exige que vc escreva muito codigo. Use o keras e seja feliz, tensorflow tambem mas lhe entrega muita coisa pronta
 
-## Pronto agora vamos LEnDA fazer jogos de computação visual, hahahah coloquei como ajudante do seu projeto quero artigo
+## Pronto agora vamos LEnDA fazer jogos de computação visual, hahahah quero meu nome do artigos <3 uheuheuhe aceito de boas
 
 
 
