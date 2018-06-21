@@ -40,23 +40,27 @@ Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão
 1-Abra o docker 
 
 2-Execute esse comando irá criar um maquina ja com tensorflow todo instalado coisa linda u.u
-
+```
 docker run -it tensorflow/tensorflow:1.0.0 bash
+```
 
 3- cria a pasta mkdir tf_files, copie o cole os arquivos que estão nesse repositorio
 
 ou o nome que deseja, mas lembre de alterar o nome e tambem caso deseje mudar o caminho em está a pasta. Lembrando que por padrão o docker abre na home.
 
 4- Execute (BUMMMMM mudou o docker ne? hahaha estamos bem entao)
-<code>
+
+```
 docker run -it \
   --publish 6006:6006 \
   --volume ${HOME}/tf_files:/tf_files \
   --workdir /tf_files \
-  tensorflow/tensorflow:1.0.0 bash <conde>
+  tensorflow/tensorflow:1.0.0 bash 
+```
   
 5- Agora vamos pro treinamento, execute esse comando se começa a contar GG SÓ ESPERE
-<code>
+
+```
 python train.py \
   --bottleneck_dir=tf_files/bottlenecks \
   --how_many_training_steps=30 \
@@ -64,7 +68,8 @@ python train.py \
   --summaries_dir=training_summaries/basic \
   --output_graph=retrained_graph.pb \
   --output_labels=retrained_labels.txt \
-  --image_dir=geometria <code>
+  --image_dir=geometria
+  ```
   
 
 lembre se caso queira fazer o treinamento novamente e mudou O NOME DA pasta que tá seu dataseet mude tambem o image_dir= 
