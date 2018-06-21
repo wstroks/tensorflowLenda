@@ -1,7 +1,7 @@
 ## Classificando imagens com TensorFlow. 
 Bom pra quem não sabe meu nome é Washington, não sou bom em explicação e principalmente em conceitos teoricos mas vou tentar explicar o maximo que posso. 
 O intuito desse tutorial é classifcar imagens, ou seja, utilizar a rede neural que o proprio tensorflow fornece e fazer nosso treinamento para reconher determinado objeto ou outro tipo de coisa que deseja. 
-Nossa base de treinamento será o utilizado pelo google que é o treinamento de detecção de alguns tipos de flores. Agora vamos lá ....
+Nossa base de treinamento será figuras geometricas. Agora vamos lá ....
 
 ## O que é o TensorFlow ?
 
@@ -35,7 +35,7 @@ Links para Estudo:
 Ufa deu trabalho mas agora vai ....
 
 ## Vamos pro treinamento 
-Baixe esse arquivo que disponibilizei para fazer seu treinamento ... Abra a pasta geometria e veja 3 tipos de figuras geometricas que vão ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
+Baixe os arquivos no repositorio que disponibilizei para fazer seu treinamento ... Abra a pasta geometria e veja 3 tipos de figuras geometricas que vão ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
 Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão diferentes correto ? então ele reconhece o nome das pastas e cada pasta será um categoria diferente do seu classificador. (Disse que sou horrivel explicando kkk qualquer duvida fale whatsapp).
 
 
@@ -48,11 +48,11 @@ Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão
 docker run -it tensorflow/tensorflow:1.0.0 bash
 ```
 
-3- cria a pasta uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc" .... 
+3- cria a pasta uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc"\tf_files .... 
 
-ou o nome que deseja, mas lembre de alterar o nome e tambem caso deseje mudar o caminho em está a pasta. Lembrando que por padrão o docker abre na home.
 
-4- Execute (BUMMMMM mudou o docker ne? hahaha estamos bem entao)
+
+4- Execute o comando abaixo(BUMMMMM mudou o docker ne? hahaha estamos bem entao)
 
 ```
 docker run -it \
