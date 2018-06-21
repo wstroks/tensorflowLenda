@@ -84,11 +84,13 @@ Procure na internet depois o que é overfitt!!! É um fator determinante para o 
 Pense comigo, vc em uma prova não estuda pelo livro, basicamente decora as respostas das provas anteriores do seu professor. Quando muda o contexto da questões voce se sente perdido e acaba errando. O mesmo vale para um classificador de imagem se voce só treina com respostas parecidas, a maquina não aprende apenas decora as informações e a taxa de acerto será ruim. HAHAHA ANALOGIA BARRIL ESPERO QUE ENTENDA. 
 
 
-6 - Geralmente em uma dataseet maior isso iria demorar um bom tempo, como eu reduzir irá ser rapido 
+6 - Geralmente em uma dataseet maior isso iria demorar um bom tempo, mas não é o caso desse treinamento.
 
-7- Agora vamos testar seu classificador 
+7- Após encerar o treinamento, irá executar o comando logo a seguir. Esse comando irá verificar a porcetagem que a imagem corresponde as três categorias treinadas, ou seja, quadrado, esfera e triangulo. Caso queira mudar a imagem a ser executada é só alterar o final do comando para a imagem que deseja.
 
+```
 python label_image.py quadrado.jpg
+```
 
 verifique se bateu o resultado e teste as outras fts que estão contidas fora do dataseet ...
 [![Demo](https://pbs.twimg.com/media/DgPYLJaWkAAuvli.jpg)]
