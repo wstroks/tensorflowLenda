@@ -18,6 +18,8 @@ Links para Estudo:
 
 [Material 4](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
 
+## E o material mais importante de todos Documentação [Tensorflow](https://www.tensorflow.org/api_docs/)
+
 ## Instalação
 1- Instale o Docker(Caso não tenha a versão de instalação do windows que o docker suporta, procure o Toolbox docker)[Docker](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
