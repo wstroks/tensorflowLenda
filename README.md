@@ -1,6 +1,6 @@
 ## Classificando imagens com TensorFlow. 
 Bom pra quem não sabe meu nome é Washington, não sou bom em explicação e principalmente em conceitos teoricos mas vou tentar explicar o maximo que posso. 
-O intuito desse tutorial é classifcar imagens, ou seja, utilizar a rede neural que o proprio tensorflow fornece e fazer nosso treinamento para reconher determinado objeto ou outro tipo de coisa que deseja. 
+O intuito desse tutorial é classificar imagens, ou seja, utilizar a rede neural que o proprio tensorflow fornece e fazer nosso treinamento para reconher determinado objeto ou outro tipo de coisa que deseja. 
 Nossa base de treinamento será figuras geometricas. Agora vamos lá ....
 
 ## O que é o TensorFlow ?
@@ -27,7 +27,7 @@ Links para Estudo:
 
 3.1- Terá uma opção na bara lateral chamada Environments clique.
 
-3.2- Aparecerá um base(root) altere a opção de intalled para not installed, procure os seguites pacotes e instale
+3.2- Aparecerá um base(root) altere a opção de installed para not installed, procure os seguites pacotes e instale
 
 *opencv,tensorflow e o GPU tb, matplotlib e numpy
 
@@ -35,7 +35,7 @@ Links para Estudo:
 Ufa deu trabalho mas agora vai ....
 
 ## Vamos pro treinamento 
-Baixe os arquivos no repositorio que disponibilizei para fazer seu treinamento ... Abra a pasta geometria e veja 3 tipos de figuras geometricas que vão ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
+Baixe os arquivos no repositorio que disponibilizei para fazer seu treinamento ... Abra a pasta geometria e veja 3 tipos de pastas e com ela três tipos de imagens que iram ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
 Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão diferentes correto ? então ele reconhece o nome das pastas e cada pasta será um categoria diferente do seu classificador. (Disse que sou horrivel explicando kkk qualquer duvida fale whatsapp).
 
 
@@ -49,11 +49,11 @@ docker run -it tensorflow/tensorflow:1.0.0 bash
 ```
 Apos instalação digite o comando exit
 
-3- cria a pasta uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc"\tf_files .... 
+3- cria uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc"\tf_files .... 
 
 
 
-4- Execute o comando abaixo(BUMMMMM mudou o docker ne? hahaha estamos bem entao)
+4- Execute o comando abaixo(BUMMMMM mudou o docker ne? hahaha estamos bem entao). Se deu errado, a causa foi que o caminho para acessar a pasta está diferente. 
 
 ```
 docker run -it \
