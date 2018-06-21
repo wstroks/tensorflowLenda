@@ -74,7 +74,7 @@ python train.py \
   --image_dir=geometria
   ```
   
-
+[![Demo](http://img.youtube.com/vi/kBw-xGEIYhY/0.jpg)](http://www.youtube.com/watch?v=kBw-xGEIYhY)
 lembre se caso queira fazer o treinamento novamente e mudou O NOME DA pasta que tá seu dataseet mude tambem o image_dir= 
 Outro ponto importante é o steps vc pode aumentar para melhorar seu treinamento de acordo com quantidade de imagens que tem, geralmente UM bom é 500 ou acima, mas como estou fazendo um treinamento simples vou colocar só 30(AQUE É AGILIDADE E TRABALHO). 
 Procure na internet depois o que é overfitt!!! É um fator determinante para o classificador  SER bom, irei fazer uma explicação breve.
