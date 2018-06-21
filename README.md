@@ -5,7 +5,7 @@ Nossa base de treinamento será figuras geometricas. Agora vamos lá ....
 
 ## O que é o TensorFlow ?
 
-O Tensorflow é uma biblioteca open source oferecida pela Google, utilizada para o aprendizado de máquina.
+O Tensorflow é uma biblioteca open source oferecida pela Google, utilizada para o aprendizado de máquina.(Depois escrevo melhor o texto)
 Explicação mais rapida do oeste ...... Acho melhor vc ler essa parte <3.
 
 Links para Estudo:
