@@ -16,7 +16,7 @@ Links para Estudo:
 
 [Material 3](https://www.youtube.com/user/sentdex)
 
-Material 4](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
+[Material 4](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
 
 ## Instalação
 1- Instale o Docker(Caso não tenha a versão de instalação do windows que o docker suporta, procure o Toolbox docker)[Docker](https://docs.docker.com/toolbox/toolbox_install_windows/)
