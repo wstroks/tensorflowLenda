@@ -47,6 +47,7 @@ Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão
 ```
 docker run -it tensorflow/tensorflow:1.0.0 bash
 ```
+Apos instalação digite o comando exit
 
 3- cria a pasta uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc"\tf_files .... 
 
