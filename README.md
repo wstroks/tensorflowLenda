@@ -85,6 +85,7 @@ Pense comigo, vc em uma prova não estuda pelo livro, basicamente decora as resp
 
 
 6 - Geralmente em uma dataseet maior isso iria demorar um bom tempo, como eu reduzir irá ser rapido 
+
 7- Agora vamos testar seu classificador 
 
 python label_image.py quadrado.jpg
