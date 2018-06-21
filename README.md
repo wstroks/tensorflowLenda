@@ -9,13 +9,14 @@ O Tensorflow é uma biblioteca open source oferecida pela Google, utilizada para
 Explicação mais rapida do oeste ...... Acho melhor vc ler essa parte <3.
 
 Links para Estudo:
-[<3](https://medium.com/@dehhmesquita/classificando-textos-com-redes-neurais-e-tensorflow-5063784a1b31)
 
-[<<3](http://www.cienciaedados.com/big-data-deep-learning-google-tensorflow/)
+[Material 1](https://medium.com/@dehhmesquita/classificando-textos-com-redes-neurais-e-tensorflow-5063784a1b31)
 
-[Esse bixo é mito](https://www.youtube.com/user/sentdex)
+[Material 2](http://www.cienciaedados.com/big-data-deep-learning-google-tensorflow/)
 
-[Esse aque é outro bruxo](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
+[Material 3](https://www.youtube.com/user/sentdex)
+
+Material 4](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
 
 ## Instalação
 1- Instale o Docker(Caso não tenha a versão de instalação do windows que o docker suporta, procure o Toolbox docker)[Docker](https://docs.docker.com/toolbox/toolbox_install_windows/)
@@ -74,7 +75,7 @@ python train.py \
   --image_dir=geometria
   ```
   
-[![Demo](http://img.youtube.com/vi/kBw-xGEIYhY/0.jpg)](http://www.youtube.com/watch?v=kBw-xGEIYhY)
+[![Demo](https://pbs.twimg.com/media/DgPYH5pX0AAzo0t.jpg:large)]
 lembre se caso queira fazer o treinamento novamente e mudou O NOME DA pasta que tá seu dataseet mude tambem o image_dir= 
 Outro ponto importante é o steps vc pode aumentar para melhorar seu treinamento de acordo com quantidade de imagens que tem, geralmente UM bom é 500 ou acima, mas como estou fazendo um treinamento simples vou colocar só 30(AQUE É AGILIDADE E TRABALHO). 
 Procure na internet depois o que é overfitt!!! É um fator determinante para o classificador  SER bom, irei fazer uma explicação breve.
@@ -84,9 +85,10 @@ Pense comigo, vc em uma prova não estuda pelo livro, basicamente decora as resp
 6 - Geralmente em uma dataseet maior isso iria demorar um bom tempo, como eu reduzir irá ser rapido 
 7- Agora vamos testar seu classificador 
 
-python label_image.py esfera.jpg
+python label_image.py quadrado.jpg
 
 verifique se bateu o resultado e teste as outras fts que estão contidas fora do dataseet ...
+[![Demo](https://pbs.twimg.com/media/DgPYLJaWkAAuvli.jpg)]
 
 ## UAU Tensorflow é massa
 Realmente ajuda bastante em um classificador de imagens, mas não aconselharia para outros tipos de analise exemplo uma rede de textos. Qual motivo? o tensorflow é bastante complexo e exige que vc escreva muito codigo. Use o keras e seja feliz, tensorflow tambem mas lhe entrega muita coisa pronta
