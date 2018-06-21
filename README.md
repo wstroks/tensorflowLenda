@@ -94,7 +94,7 @@ verifique se bateu o resultado e teste as outras fts que estão contidas fora do
 ## UAU Tensorflow é massa
 Realmente ajuda bastante em um classificador de imagens, mas não aconselharia para outros tipos de analise exemplo uma rede de textos. Qual motivo? o tensorflow é bastante complexo e exige que vc escreva muito codigo. Use o keras e seja feliz, tensorflow tambem mas lhe entrega muita coisa pronta
 
-## Pronto agora vamos LEnDA fazer jogos de computação visual, hahahah quero meu nome do artigos <3 uheuheuhe aceito de boas
+## Pronto agora vamos LEnDA fazer jogos de computação visual, hahahah quero meu nome nos artigos <3 uheuheuhe aceito de boas euhHEUHehUE ZUERA
 
 
 
