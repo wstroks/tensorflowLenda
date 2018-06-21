@@ -49,7 +49,7 @@ docker run -it tensorflow/tensorflow:1.0.0 bash
 ```
 Apos instalação digite o comando exit
 
-3- cria uma pasta chamada tf_files, copie o cole os arquivos que estão nesse repositorio!!! Lembrando que vc irá criar essa pasta na sua C:\Users\"nomepc"\tf_files .... 
+3- cria uma pasta chamada tf_files, copie e o cole os arquivos que estão nesse repositorio na pasta tf_files!!! LEMBRANDO QUE ESTÁ PASTA SERA CRIADA NO LOCAL  C:\Users\"nomepc"\tf_files .... 
 
 
 
