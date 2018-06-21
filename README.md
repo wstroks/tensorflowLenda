@@ -34,7 +34,7 @@ Links para Estudo:
 Ufa deu trabalho mas agora vai ....
 
 ## Vamos pro treinamento 
-Baixe esse arquivo que disponibilizei para fazer seu treinamento ... Abra a pasta flower_photos e veja 5 tipos de flores que vão ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
+Baixe esse arquivo que disponibilizei para fazer seu treinamento ... Abra a pasta geometria e veja 3 tipos de figuras geometricas que vão ser classificadas!!! Essa pasta é o nosso dataseet, com ela será feito o treinamento.
 Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão diferentes correto ? então ele reconhece o nome das pastas e cada pasta será um categoria diferente do seu classificador. (Disse que sou horrivel explicando kkk qualquer duvida fale whatsapp).
 
 
