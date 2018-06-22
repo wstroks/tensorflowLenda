@@ -31,7 +31,7 @@ Links para Estudo:
 
 3.2- Aparecerá um base(root) altere a opção de installed para not installed, procure os seguites pacotes e instale
 
-*opencv,tensorflow e o GPU tb, matplotlib e numpy (Caso não tenha essas bibliotecas no "not installed" verifique se já foi instalado)
+*opencv,tensorflow e o GPU tb, matplotlib e numpy (Caso não tenha essas bibliotecas no "not installed", verifique se já foi instalado)
 
 
 Ufa deu trabalho mas agora vai ....
