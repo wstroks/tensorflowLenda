@@ -103,7 +103,7 @@ verifique se bateu o resultado e teste as outras fts que estão contidas fora do
 
 2- Fiz um treinamento e ficou ruim, quero melhorar e agora?
 
-2.1- Adicione mais imagens e execute o comando novamente. Verifique se as imagens que adicione tem diferenças isso é muito importante Overfitt e tambem pode  acontecer o overtraining( Pode ocorrer que em um determinado instante do treinamento a generalização comece a degenerar, causando o problema de over-training, ou seja a rede se especializa no conjunto de dados do treinamento e perde a capacidade de generalização) [Link](http://conteudo.icmc.usp.br/pessoas/andre/research/neural/desenv.htm)
+2.1- Adicione mais imagens e execute o comando novamente. Verifique se as imagens que adicionou tem diferenças, isso é muito importante lembre de Overfitt e tambem pode  acontecer o overtraining( Pode ocorrer que em um determinado instante do treinamento a generalização comece a degenerar, causando o problema de over-training, ou seja a rede se especializa no conjunto de dados do treinamento e perde a capacidade de generalização) [Link](http://conteudo.icmc.usp.br/pessoas/andre/research/neural/desenv.htm)
 
 2.1.1- Pronto treinamento feito, agora é só ter criatividade e trabalho hahaha
 
