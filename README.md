@@ -97,6 +97,13 @@ python label_image.py quadrado.jpg
 verifique se bateu o resultado e teste as outras fts que estão contidas fora do dataseet ...
 [![Demo](https://pbs.twimg.com/media/DgPYLJaWkAAuvli.jpg)]
 
+
+## Deu bom, agora eu quero fazer meu treinamento !!!?
+1- Use sempre o Inception com a dataseet que criou. 
+2- Fiz um treinamento e ficou ruim, quero melhorar e agora?
+2.1- Adicione mais imagens e execute o comando novamente. Verifique se as imagens que adicione tem diferenças isso é muito importante Overfitt e tambem pode  acontecer o overtraining( Pode ocorrer que em um determinado instante do treinamento a generalização comece a degenerar, causando o problema de over-training, ou seja a rede se especializa no conjunto de dados do treinamento e perde a capacidade de generalização) [Link](http://conteudo.icmc.usp.br/pessoas/andre/research/neural/desenv.htm)
+
+
 ## UAU Tensorflow é massa
 Realmente ajuda bastante em um classificador de imagens, mas não aconselharia para outros tipos de analise exemplo uma analise de sentimentos através de texto. Qual motivo? o tensorflow é bastante complexo e exige que vc escreva muito codigo. Use o keras e seja feliz, ele utiliza como base o tensorflow e apresenta metodos/bibliotecas já prontas.
 
