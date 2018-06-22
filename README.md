@@ -47,7 +47,7 @@ Como o tensorflow separa quem é quem ? vc percebeu que o nome das pastas estão
 
 2-Execute esse comando irá criar um maquina ja com tensorflow todo instalado coisa linda u.u
 ```
-docker run -it tensorflow/tensorflow:1.0.0 bash
+docker run -it tensorflow/tensorflow:1.1.0 bash
 ```
 Apos instalação digite o comando exit
 
