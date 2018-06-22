@@ -64,8 +64,11 @@ docker run -it \
   --workdir /tf_files \
   tensorflow/tensorflow:1.1.0 bash 
 ```
-  
+[![Demo](https://pbs.twimg.com/media/DgUYQDaXUAMzFX-.jpg:large)]  
+
 5- Agora vamos pro treinamento, execute esse comando se começa a contar GG SÓ ESPERE
+
+[![Demo](https://pbs.twimg.com/media/DgUYvJBXUAEyIS8.jpg:large)]
 
 ```
 python train.py \
@@ -86,7 +89,10 @@ Procure na internet depois o que é overfitt!!! É um fator determinante para o 
 Pense comigo, vc em uma prova não estuda pelo livro, basicamente decora as respostas das provas anteriores do seu professor. Quando muda o contexto da questões voce se sente perdido e acaba errando. O mesmo vale para um classificador de imagem se voce só treina com respostas parecidas, a maquina não aprende apenas decora as informações e a taxa de acerto será ruim. HAHAHA ANALOGIA BARRIL ESPERO QUE ENTENDA. 
 
 
+
 6 - Geralmente em uma dataseet maior isso iria demorar um bom tempo, mas não é o caso desse treinamento.
+
+[![Demo](https://pbs.twimg.com/media/DgUZQH3X4AAK9zQ.jpg:large)]
 
 7- Após encerar o treinamento, irá executar o comando logo a seguir. Esse comando irá verificar a porcetagem que a imagem corresponde as três categorias treinadas, ou seja, quadrado, esfera e triangulo. Caso queira mudar a imagem a ser executada é só alterar o final do comando para a imagem que deseja.
 
